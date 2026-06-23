@@ -38,10 +38,6 @@ Historical meteorological worksheets often contain unindexed headers and structu
 ### 2. Monotonic Trend Evaluation
 The **Mann-Kendall (MK) Test** determines if a variable has a monotonic upward or downward trend over time:
 
-$$S = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \operatorname{sgn}(x_j - x_i)$$
-
-Where $x_j$ and $x_i$ represent sequential values in the series. The calculated $Z$-score and $p$-value confirm if observed fluctuations are statistically significant or simple stochastic variations.
-
 ---
 
 ## ⚙️ Installation & Usage
